@@ -10,14 +10,14 @@ divididos pelo maior número.
 def dividindo_lista(lista):
     divisor = max(lista)
     divididos = []
-    print('oi')
+
     for valor in lista:
         resultado = valor / divisor
         divididos.append(resultado)
-        print(resultado)
+
     return divididos
 
 
-lista_original = [1, 2, 3, 4, 5]
+lista_original = [10, 10, 10, 10, 10]
 
 print(dividindo_lista(lista_original))
