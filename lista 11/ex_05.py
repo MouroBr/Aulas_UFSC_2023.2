@@ -1,4 +1,4 @@
-import ex_02
+from ex_02 import matriz_0
 
 
 def matriz_diagonal_0(matriz_ìnicial):
@@ -18,5 +18,19 @@ def matriz_diagonal_0(matriz_ìnicial):
     return nova_matriz
 
 
-def imprime_matriz(matriz):
+def imprime_matriz(nova_matriz):
+    linha = 0
+    matriz_utilizada = nova_matriz
+    while linha < len(nova_matriz):
+        coluna = 0
+        while coluna < len(nova_matriz):
+            print(matriz_utilizada[linha][coluna], end='')
+            coluna += 1
+        linha += 1
 
+
+
+
+
+ def main():
+     matriz_0(6, 6, 9)
