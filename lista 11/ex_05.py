@@ -12,7 +12,7 @@ def matriz_diagonal_0(matriz_ìnicial):
                 linha_nova.append(0)
                 coluna += 1
             else:
-                linha.append(matriz_ìnicial[linha][coluna] * 10)
+                linha_nova.append(matriz_ìnicial[linha][coluna] * 10)
         linha += 1
         nova_matriz.append(linha_nova)
     return nova_matriz
@@ -27,8 +27,7 @@ def imprime_matriz(nova_matriz):
             print(matriz_utilizada[linha][coluna], end='')
             coluna += 1
         linha += 1
-    print()
-
+        print()
 
  def main():
     matriz_inicial = matriz_0(6, 6, 9)
