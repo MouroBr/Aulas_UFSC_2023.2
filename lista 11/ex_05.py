@@ -27,10 +27,14 @@ def imprime_matriz(nova_matriz):
             print(matriz_utilizada[linha][coluna], end='')
             coluna += 1
         linha += 1
-
-
-
+    print()
 
 
  def main():
-     matriz_0(6, 6, 9)
+    matriz_inicial = matriz_0(6, 6, 9)
+    nova_matriz = matriz_diagonal_0(matriz_inicial)
+    imprime_matriz(nova_matriz)
+
+
+if __name__ == "__main__":
+    main()
