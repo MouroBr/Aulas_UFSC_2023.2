@@ -6,9 +6,4 @@ while a < num:
     a, b = b, a + b
 print(a)
 
-'''
 
-
-
-
-'''
