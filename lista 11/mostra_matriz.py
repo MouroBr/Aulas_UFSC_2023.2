@@ -14,4 +14,4 @@ def mostra_matriz(matriz):
 
 
 matriz = matriz_quadrada(3, 3)
-print(mostra_matriz(matriz))
+mostra_matriz(matriz)
